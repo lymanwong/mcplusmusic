@@ -50,6 +50,9 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
+            <div class="jumbotron">
+              <img src="images/h211.jpg">
+            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Welcome to MCplusMusic</h1>
