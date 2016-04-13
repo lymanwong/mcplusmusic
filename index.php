@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" /> -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -15,8 +14,7 @@
   </head>
 </html>
 <body>
-<div id="wrapper">
-
+<div id="wrapper" class="toggled">
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -46,12 +44,15 @@
         </ul>
     </div>
     <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
+<!--     <header id="first">
+        <video autoplay loop muted class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="images/h211.jpg" id="video-background">
+        <source src="http://mcplusmusic.com/video/07.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </header> -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="jumbotron">
-              <img src="images/h211.jpg">
+              <img src="images/h211.jpg" class="img-responsive center">
             </div>
             <div class="row">
                 <div class="col-lg-12">
