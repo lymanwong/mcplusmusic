@@ -110,7 +110,7 @@
     }
 
     #wrapper.toggled #sidebar-wrapper {
-        width: 2%;
+        width: 1.5%;
     }
 
     #page-content-wrapper {
@@ -127,15 +127,16 @@
         text-align: center;
     }
 
-    .text {
-    position: absolute;
-    width: 100%;
-    background:rgba(0,0,0,0.5);
-    color:#fff;
-    -webkit-transform: rotate(270deg) translateX(-100%);
-            transform: rotate(270deg) translateX(-100%);
-    -webkit-transform-origin: 0px 0px;
-            transform-origin: 0px 0px;
-    margin-top: 50%;
+    .text{
+      position: absolute;
+      width: 100%;
+      background:rgba(0,0,0,0.5);
+      color:#fff;
+      -webkit-transform: rotate(270deg) translateX(-100%);
+              transform: rotate(270deg) translateX(-100%);
+      -webkit-transform-origin: 0px 0px;
+              transform-origin: 0px 0px;
+      padding-right: 150%;
+      color: #ce9e60;
     }
 }
