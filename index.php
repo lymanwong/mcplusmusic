@@ -8,7 +8,6 @@
     <?php include ('./partials/sidebar.php'); ?>
 <div id="page-content-wrapper">
     <div class="container-fluid">
-    <a href="" class="btn btn-default" id="menu-toggle">Menu</a>
         <div class="jumbotron">
           <img src="images/h211.jpg" class="img-responsive center">
         </div>

@@ -1,6 +1,7 @@
 <!-- Sidebar -->
 <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
+        <a href="" class="text" id="menu-toggle">Menu</a>
         <li class="sidebar-brand">
             <a href="#/">
                 MCplusMusic
