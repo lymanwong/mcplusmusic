@@ -4,19 +4,22 @@
   <?php include ('./partials/head.php');?>
 
 <body>
-<div id="wrapper" class="toggled">
-    <?php include ('./partials/sidebar.php'); ?>
-<div id="page-content-wrapper">
-    <div class="container-fluid">
-        <div class="jumbotron">
-          <img src="images/h211.jpg" class="img-responsive center">
+    <div id="wrapper" class="toggled">
+        <?php include ('./partials/sidebar.php'); ?>
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                  <img src="images/h211.jpg" class="img-responsive center">
+                </div>
+
+                <div ng-view></div>
+        <hr>
+            <?php include ('./partials/footer.php'); ?>
+            </div>
         </div>
-
-        <div ng-view></div>
     </div>
-</div>
-<!-- /#page-content-wrapper -->
 
+<!-- /#page-content-wrapper -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -33,5 +36,5 @@
     <script src="js/main.js"></script>
     <script src="js/scripts.js"></script>
     <!-- <script src="js/sound.js"></script> -->
-</body>
+    </body>
 </html>
