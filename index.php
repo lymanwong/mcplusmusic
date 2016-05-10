@@ -13,7 +13,6 @@
                 </div>
 
                 <div ng-view></div>
-        <hr>
             <?php include ('./partials/footer.php'); ?>
             </div>
         </div>
